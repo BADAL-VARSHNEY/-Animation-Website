@@ -1,8 +1,7 @@
 import { useNavigate } from 'react-router-dom';
 import './Login.css';
-import Nav from './Nav'
 function  Login() {
-  const navigate =useNavigate()
+  const navigate =useNavigate() 
 
      function myFunction() {
           let x = document.getElementById("myInput");
@@ -13,12 +12,11 @@ function  Login() {
           }
         }
         function formHandler() {
-          navigate("/Home")
+          navigate("/Home");
         }
      return(
      <>
-     <Nav />
-      <div className="login-container">
+      <div className="login-container"> 
           <div className='login-box'>
                <h1 className='b-set aline-set'>ACCOUNT LOGIN</h1>
                <form onSubmit={formHandler}>
@@ -32,7 +30,7 @@ function  Login() {
                       </form>
                         <div className='set-pass'>
                          <a href="#/">Don't have an account?</a>
-                         <a href="#/">Forget password?</a>
+                         <a href="#/">Forget password?</a> 
                         </div>
           </div>
       </div>
@@ -40,3 +38,4 @@ function  Login() {
      )
 }
 export default Login;
+

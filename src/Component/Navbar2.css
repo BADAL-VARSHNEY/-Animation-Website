@@ -1,5 +1,9 @@
-
-.a-set-ancer:focus{
+.btn-set{
+     border: none;
+     background: none;
+    margin: auto;
+}
+.a-set-ancer:active{
      border: 2px solid  #fa2d09;
      color: #f72702;
     }

@@ -1,9 +1,19 @@
 import './Navbar2.css';
 import logo from '../Images/logo.png'
 import 'aos/dist/aos.css';
+import { useNavigate } from 'react-router-dom';
 // import { Link } from 'react-router-dom';
 
 function Navbar2() {
+     const navigate =useNavigate() 
+     function myLogoutBtn() {
+      const set = window.confirm('Are you sure?')
+      if (set) {
+          navigate("/");
+      }else{
+           navigate("/Home")
+      }
+     }
      return(
           <>
                <nav className='navbar2'>
@@ -22,7 +32,7 @@ function Navbar2() {
                                    <a className='a-set-ancer'  href="#C"  >CONTACT</a>
                               </li>
                               <li className='li-set' data-aos="slide-up" >
-                                   <a className='a-set-ancer'  href="#/" data-aos="slide-down" >LOGOUT</a>
+                                   <button className='a-set-ancer btn-set' onClick={myLogoutBtn}  data-aos="slide-down" >LOGOUT</button>
                               </li>
                          </ul>
                     </div>

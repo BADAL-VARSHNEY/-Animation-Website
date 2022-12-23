@@ -1,8 +1,18 @@
 import logo from '../Images/logo.png';
 import './Navbar.css';
+import { useNavigate } from 'react-router-dom';
 // import { Link } from 'react-router-dom';
 
 function Navbar(){
+  const navigate =useNavigate() 
+  function myLogoutBtn() {
+   const set = window.confirm('Are you sure?')
+   if (set) {
+       navigate("/");
+   }else{
+        navigate("/Home")
+   }
+  }
      return (
           <>
    <nav className="navbar bg-light fixed-top">
@@ -25,7 +35,7 @@ function Navbar(){
             <a className="nav-link active" href="#B">About</a>
           </li>
               <li  data-bs-dismiss="offcanvas"><a className="nav-link active" href="#C">Contact</a></li>
-              <li><a className="nav-link active" href="#">Logout</a></li>
+              <li><button className='nav-link active btn-set' onClick={myLogoutBtn}  >Logout</button></li>
         </ul>
       </div>
     </div>
