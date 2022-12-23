@@ -1,0 +1,200 @@
+.section-three{
+     width: 100%;
+     height: auto;
+}
+.grey-box{
+     width: 80%;
+     height: auto;
+     background-color: rgb(199, 197, 197);
+     border-radius: 20px;
+     padding: 20px;
+     margin: auto;
+}
+.red-text{
+     width: 80%;
+     margin: auto;
+     margin-top: 4%;
+}
+.head12{
+     color: red;
+}
+.set-button{
+     padding: 1.5% 8%;
+     border-radius: 50px;
+     font-size: 1.5rem;
+     background-color: black;
+     color: #fff;
+     border: none;
+     margin-bottom: 12%;
+}
+
+@media screen and (min-width: 320px) and (max-width: 400px) {
+     .section-three{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+     }
+.text-contain{
+     width: 100%;
+     height: 70vh;
+     text-align: center;
+     margin-top: 20px;
+     padding: 20px;
+     margin: 20px 0px;
+}
+.count-boxs{
+     width: 80%;
+     height: 95vh;
+     margin-top: 80px;
+}
+.counter-box{
+     width: 100%;
+     height: auto;
+     border-radius: 10px;
+     margin-top: 20px;
+}
+.color-grey{
+     background-color: grey;
+}
+.color-blue{
+     background-color: #58bfe7;
+}
+.color-orange{
+     background-color: #E33F1F;
+}
+.head7{
+     font-size: 50px;
+     margin: 20px 0px ;
+}
+
+.head8{
+    margin: 25px 0px;
+}
+.paragrap3{
+     letter-spacing: 1px;
+     word-break: 1px;
+     font-style: italic;
+     line-height: 25px;
+    
+}
+.head9{
+     text-align: center;
+     padding-top: 10px;
+     font-size: 65px;
+     color: #fff;
+}
+.paragrap4{
+     text-align: center;
+     color: #fff;
+     font-style: italic;
+     font-size: 18px;
+     padding: 10px;
+}
+.bg-img{
+     text-align: center;
+     margin-top: 50%;
+}
+.fruity-img{
+     width: 85%;
+     
+     border-radius: 20px;
+}
+.text-con{
+     margin: 2% 10%;
+}
+.head10{
+     font-size: 38px;
+}
+.paragrap5{
+     font-size: 20px;
+     font-style: italic;
+}
+.set-button{
+     font-size: 1.2rem;
+     padding: 3% 15% ;
+}
+}
+
+@media screen and (min-width: 1200px) {
+     
+.text-contain{
+     width: 100%;
+     height: auto;
+     margin-top: 20px;
+     padding: 20px;
+     text-align: center;
+     
+}
+.count-boxs{
+     width: 100%;
+     height: auto;
+     margin: 20px 0px;
+     display: flex;
+     justify-content: center;
+}
+.counter-box{
+     width: auto;
+     height: auto;
+     border-radius: 10px;
+     margin-top: 20px;
+     margin: 2%;
+}
+.color-grey{
+     background-color: grey;
+}
+.color-blue{
+     background-color: #58bfe7;
+}
+.color-orange{
+     background-color: #E33F1F;
+}
+.head7{
+     font-size: 50px;
+     margin: 20px 0px ;
+}
+.head8{
+    margin: 25px 0px;
+}
+.paragrap3{
+     letter-spacing: 1px;
+     word-break: 1px;
+     font-style: italic;
+     line-height: 25px;
+}
+.head9{
+     text-align: center;
+     margin-top: 5px;
+     font-size: 60px;
+     color: #fff;
+}
+.paragrap4{
+     text-align: center;
+     color: #fff;
+     font-style: italic;
+     padding: 10px;
+}
+.bg-img{
+     text-align: center;
+}
+.fruity-img{
+     width: 80%;
+     height: 90vh;
+     border-radius: 20px;
+}
+.text-con{
+     margin: 2% 10%;
+}
+.head10{
+     font-size: 58px;
+}
+.paragrap5{
+     font-size: 20px;
+     font-style: italic;
+}
+.box-img{
+     width: 10%;
+     margin-bottom: 2%;
+}
+
+}

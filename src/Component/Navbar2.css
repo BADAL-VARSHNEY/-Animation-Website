@@ -1,0 +1,55 @@
+
+.a-set-ancer:focus{
+     border: 2px solid  #fa2d09;
+     color: #f72702;
+    }
+@media screen and (max-width:988px) {
+     .navbar2{
+          display: none;
+     }
+}
+@media screen and (min-width:989px) {
+     .navbar2{
+          width: 100%;
+          height: 9vh;
+          position:fixed;
+          background-color: #fff;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 0px 20px;
+          z-index: 5;
+     }
+     .logo-set-img{
+          width: 25%;
+          
+     }
+     .ul-set{
+          display: flex;
+          align-items: center;
+          margin: auto;
+     }
+     .li-set{
+         
+          margin: 0px 10px ;
+          list-style: none;
+          cursor: pointer;
+          
+     }
+     .a-set-ancer{
+          text-decoration: none;
+          color: #58bfe7;
+          padding: 8px 20px;
+          border-radius: 5px;
+          font-size: 20px;
+          font-weight: bold;
+          
+     }
+    .a-set-ancer:active{
+        border: 2px solid #58bfe7 ;
+        color: #58bfe7;
+    }
+    .a-set-ancer:hover{
+     color: #fa2d09;
+    }
+}
